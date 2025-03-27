@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var recipeViewModel: RecipeViewModel = RecipeViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List(self.recipeViewModel.recipeModels) {item in
+                NavigationLink {
+                    ShowRecipeView(theRecipe: item.recipe, imageName: item.recipeImage, recipeUrl: item.recipeURL)
+                } label: {
+                    ListItemView(name: item.name, calories: item.calories, recipeImage: item.recipeImage)
+                }
+            }
+            .navigationTitle("Recipes")
+            .listRowSeparator(.hidden)
         }
-        .padding()
     }
 }
 

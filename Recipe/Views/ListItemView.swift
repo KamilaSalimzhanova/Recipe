@@ -11,7 +11,7 @@ struct ListItemView: View {
     let name: String
     let calories: Int
     let recipeImage: String
-    let imgDim: CGFloat = 80
+    let imgDim: CGFloat = 70
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 5){
@@ -28,7 +28,10 @@ struct ListItemView: View {
                 .resizable()
                 .frame(width: imgDim, height: imgDim)
                 .cornerRadius(10)
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.white, lineWidth: 3))
+                .shadow(color: .blue, radius: 10, x: 5, y: 5)
         }
+        .padding(.horizontal, 3)
         .background(Color.black)
         .cornerRadius(10)
         .padding()

@@ -14,6 +14,7 @@
 		8EFF4B4F2D95A2F500DDAC36 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B4E2D95A2F500DDAC36 /* RecipeModel.swift */; };
 		8EFF4B532D95A47F00DDAC36 /* RecipeVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B522D95A47F00DDAC36 /* RecipeVIewModel.swift */; };
 		8EFF4B552D95A6CC00DDAC36 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B542D95A6CC00DDAC36 /* ListItemView.swift */; };
+		8EFF4B572D95ABBE00DDAC36 /* ShowRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B562D95ABBE00DDAC36 /* ShowRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8EFF4B4E2D95A2F500DDAC36 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		8EFF4B522D95A47F00DDAC36 /* RecipeVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVIewModel.swift; sourceTree = "<group>"; };
 		8EFF4B542D95A6CC00DDAC36 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		8EFF4B562D95ABBE00DDAC36 /* ShowRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8EFF4B542D95A6CC00DDAC36 /* ListItemView.swift */,
+				8EFF4B562D95ABBE00DDAC36 /* ShowRecipeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFF4B552D95A6CC00DDAC36 /* ListItemView.swift in Sources */,
+				8EFF4B572D95ABBE00DDAC36 /* ShowRecipeView.swift in Sources */,
 				8EFF4B532D95A47F00DDAC36 /* RecipeVIewModel.swift in Sources */,
 				8EFF4B402D95A24900DDAC36 /* ContentView.swift in Sources */,
 				8EFF4B3E2D95A24900DDAC36 /* RecipeApp.swift in Sources */,
